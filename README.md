@@ -1574,6 +1574,13 @@
 
 - [Avento/CVE-2024-8522](https://github.com/Avento/CVE-2024-8522)
 
+### CVE-2024-8529 (2024-09-12)
+
+<code>The LearnPress – WordPress LMS Plugin plugin for WordPress is vulnerable to SQL Injection via the 'c_fields' parameter of the /wp-json/lp/v1/courses/archive-course REST API endpoint in all versions up to, and including, 4.2.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2024-8529](https://github.com/RandomRobbieBF/CVE-2024-8529)
+
 ### CVE-2024-8698
 - [huydoppaz/CVE-2024-8698-POC](https://github.com/huydoppaz/CVE-2024-8698-POC)
 
@@ -1589,6 +1596,9 @@
 
 ### CVE-2024-9014
 - [EQSTLab/CVE-2024-9014](https://github.com/EQSTLab/CVE-2024-9014)
+
+### CVE-2024-9061
+- [RandomRobbieBF/CVE-2024-9061](https://github.com/RandomRobbieBF/CVE-2024-9061)
 
 ### CVE-2024-9106
 - [RandomRobbieBF/CVE-2024-9106](https://github.com/RandomRobbieBF/CVE-2024-9106)
@@ -1616,8 +1626,17 @@
 ### CVE-2024-9570
 - [dylvie/CVE-2024-9570_D-Link-DIR-619L-bof](https://github.com/dylvie/CVE-2024-9570_D-Link-DIR-619L-bof)
 
+### CVE-2024-9593
+- [RandomRobbieBF/CVE-2024-9593](https://github.com/RandomRobbieBF/CVE-2024-9593)
+
 ### CVE-2024-9680
 - [tdonaworth/Firefox-CVE-2024-9680](https://github.com/tdonaworth/Firefox-CVE-2024-9680)
+
+### CVE-2024-9707
+- [RandomRobbieBF/CVE-2024-9707](https://github.com/RandomRobbieBF/CVE-2024-9707)
+
+### CVE-2024-9796
+- [RandomRobbieBF/CVE-2024-9796](https://github.com/RandomRobbieBF/CVE-2024-9796)
 
 ### CVE-2024-9821
 - [RandomRobbieBF/CVE-2024-9821](https://github.com/RandomRobbieBF/CVE-2024-9821)
@@ -5229,6 +5248,13 @@
 
 - [KTN1990/CVE-2024-43918](https://github.com/KTN1990/CVE-2024-43918)
 
+### CVE-2024-43965 (2024-08-29)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Smackcoders SendGrid for WordPress allows SQL Injection.This issue affects SendGrid for WordPress: from n/a through 1.4.
+</code>
+
+- [RandomRobbieBF/CVE-2024-43965](https://github.com/RandomRobbieBF/CVE-2024-43965)
+
 ### CVE-2024-43998
 - [RandomRobbieBF/CVE-2024-43998](https://github.com/RandomRobbieBF/CVE-2024-43998)
 
@@ -5426,6 +5452,9 @@
 </code>
 
 - [vidura2/CVE-2024-46451](https://github.com/vidura2/CVE-2024-46451)
+
+### CVE-2024-46483
+- [kn32/cve-2024-46483](https://github.com/kn32/cve-2024-46483)
 
 ### CVE-2024-46532
 - [KamenRiderDarker/CVE-2024-46532](https://github.com/KamenRiderDarker/CVE-2024-46532)
@@ -14131,7 +14160,7 @@
 - [pivik271/CVE-2022-1015](https://github.com/pivik271/CVE-2022-1015)
 - [more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015)
 - [0range1337/CVE-2022-1015](https://github.com/0range1337/CVE-2022-1015)
-- [hoanghailongvn/CVE-2022-1015](https://github.com/hoanghailongvn/CVE-2022-1015)
+- [seadragnol/CVE-2022-1015](https://github.com/seadragnol/CVE-2022-1015)
 
 ### CVE-2022-1026 (2022-04-04)
 
@@ -32269,6 +32298,13 @@
 
 - [bousalman/CVE-2020-35545](https://github.com/bousalman/CVE-2020-35545)
 
+### CVE-2020-35575 (2020-12-26)
+
+<code>A password-disclosure issue in the web interface on certain TP-Link devices allows a remote attacker to get full administrative access to the web panel. This affects WA901ND devices before 3.16.9(201211) beta, and Archer C5, Archer C7, MR3420, MR6400, WA701ND, WA801ND, WDR3500, WDR3600, WE843N, WR1043ND, WR1045ND, WR740N, WR741ND, WR749N, WR802N, WR840N, WR841HP, WR841N, WR842N, WR842ND, WR845N, WR940N, WR941HP, WR945N, WR949N, and WRD4300 devices.
+</code>
+
+- [dylvie/CVE-2020-35575-TP-LINK-TL-WR841ND-password-disclosure](https://github.com/dylvie/CVE-2020-35575-TP-LINK-TL-WR841ND-password-disclosure)
+
 ### CVE-2020-35590 (2020-12-21)
 
 <code>LimitLoginAttempts.php in the limit-login-attempts-reloaded plugin before 2.17.4 for WordPress allows a bypass of (per IP address) rate limits because the X-Forwarded-For header can be forged. When the plugin is configured to accept an arbitrary header for the client source IP address, a malicious user is not limited to perform a brute force attack, because the client IP header accepts any arbitrary string. When randomizing the header input, the login count does not ever reach the maximum allowed retries.
@@ -34448,6 +34484,13 @@
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
+
+### CVE-2019-11248 (2019-08-29)
+
+<code>The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+</code>
+
+- [nod3jzzz/poc-CVE-2019-11248](https://github.com/nod3jzzz/poc-CVE-2019-11248)
 
 ### CVE-2019-11358 (2019-04-19)
 
@@ -40503,7 +40546,7 @@
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
 - [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
-- [pr0x1ma-byte/cybersecurity-struts2](https://github.com/pr0x1ma-byte/cybersecurity-struts2)
+- [sighup1/cybersecurity-struts2](https://github.com/sighup1/cybersecurity-struts2)
 - [cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638)
 - [0x00-0x00/CVE-2017-5638](https://github.com/0x00-0x00/CVE-2017-5638)
 - [m3ssap0/struts2_cve-2017-5638](https://github.com/m3ssap0/struts2_cve-2017-5638)
